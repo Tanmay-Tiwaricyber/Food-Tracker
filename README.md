@@ -1,6 +1,6 @@
 # 🥗 Food Tracker – Smart AI Food Inventory & Nutrition Assistant
 
-![Banner](https://github.com/Tanmay-Tiwaricyber/Food-Tracker/assets/banner.png)
+![Banner](https://github.com/Tanmay-Tiwaricyber/Food-Tracker/blob/main/banner.png?raw=true)
 
 Track your meals, manage food storage, reduce waste, and get personalized AI-driven suggestions with **Gemini 2.0 Flash** – all in one intuitive web app.
 
