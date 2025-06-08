@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Use your Gemini API key
-    const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY || "AIzaSyA3-BguNu4-gt4u7AqmUq2dDZHmkS-nDoA"
+    const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY || ""
 
     const { text } = await generateText({
       model: google("gemini-2.0-flash-exp", {
