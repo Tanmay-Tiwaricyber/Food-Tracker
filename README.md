@@ -1,62 +1,55 @@
-# 🥗 Food Tracker App
+# 🥗 Food Tracker – Smart AI Food Inventory & Nutrition Assistant
 
-Track what you eat, avoid food waste, and stay healthy – all in one place.
+![Banner](https://github.com/Tanmay-Tiwaricyber/Food-Tracker/assets/banner.png)
+
+Track your meals, manage food storage, reduce waste, and get personalized AI-driven suggestions with **Gemini 2.0 Flash** – all in one intuitive web app.
+
+---
 
 ## 🚀 Overview
 
-**Food Tracker** is a web app designed to help users log, track, and manage their food consumption and inventory. Whether you’re a health-conscious individual or someone trying to reduce food wastage, this app gives you a simple and smart way to stay on top of your food habits.
+**Food Tracker** is a modern full-stack web application built with **Next.js**, **Tailwind CSS**, and **Firebase**. It empowers users to:
 
-## 🔥 Features
+- Log their food items and track expiry
+- Get AI-based recipe suggestions and storage tips
+- Stay on top of what’s fresh or about to expire
+- Plan weekly meals using real-time data
 
-- 🍱 **Food Logging** – Add items you've eaten or bought.
-- 📅 **Expiry Tracker** – Get notified when food is about to expire.
-- 📊 **Daily Nutrition Tracker** – Visualize your intake (planned).
-- 🤖 **AI Insights (Coming Soon)** – Get suggestions for meals and ways to use food before it spoils.
-- 🔐 **Authentication** – Secure login using Firebase.
-- 📂 **User Dashboard** – Manage your food list, view expiry dates, and take action.
+---
+
+## 🔥 Key Features
+
+### 🤖 AI Food Assistant – Powered by Gemini 2.0 Flash
+- 🍽️ Personalized Recipes using available food
+- 📦 Smart Food Storage Tips
+- 🛒 Grocery Optimization Suggestions
+- 📅 AI Meal Planning Assistant
+
+### 📊 Dashboard Intelligence
+- **Foods Tracked:** `4`
+- **Expiring This Week:** `3`
+- **Still Fresh:** `1`
+- ⚠️ **Expiring Soon:**  
+  - Bread – 6/8/2025  
+  - Milk – 6/8/2025  
+  - Roma Tomatoes – 6/15/2025
+
+### 🍴 Modules
+| Module       | Functionality                                 |
+|--------------|-----------------------------------------------|
+| 📘 Recipes    | AI-generated dishes based on inventory        |
+| 🥗 Nutrition  | Food nutrition and calorie tracker (soon)     |
+| 🧊 Storage    | Store food better with AI tips                |
+| 🗓️ Meal Plan  | Weekly plans powered by food availability     |
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, TailwindCSS, JavaScript
-- **Backend / Auth**: Firebase Authentication
-- **Database**: Firebase Realtime Database / Firestore
-- **AI Features**: Gemini API (Planned)
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Database & Auth**: [Firebase](https://firebase.google.com/)
+- **Language**: TypeScript
+- **AI Integration**: Gemini 2.0 Flash
 
-## 🧠 Future AI-Powered Features
-
-- 🧠 **Food Expiry Prediction**
-- 🥘 **Smart Meal Suggestions**
-- 📦 **Inventory Optimizer**
-- 🗣️ **Voice-based Food Logging**
-- 🧾 **Receipt Scanner for Auto Entry**
-
-## 🧪 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Tanmay-Tiwaricyber/Food-Tracker.git
-cd Food-Tracker
-```
-2. Set Up Firebase
-Create a Firebase project at firebase.google.com
-
-Enable Authentication (Email/Password or Google)
-
-Enable Firestore or Realtime Database
-
-Replace the firebaseConfig object in your project with your Firebase credentials.
-
-3. Run the App
-Open index.html in your browser or use Live Server in VS Code.
-
-🙌 Contributing
-Contributions are welcome! Feel free to open issues or submit a pull request.
-
-📄 License
-This project is open-source and available under the MIT License.
-
-🤝 Connect with the Creator
-Tanmay Tiwari
-GitHub: @Tanmay-Tiwaricyber
-LinkedIn: Coming soon
+---
